@@ -1,24 +1,22 @@
-# README
+# Instruções para Iniciar a Aplicação
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Para iniciar a aplicação, siga os passos abaixo:
 
-Things you may want to cover:
+1. **Construir e Iniciar os Contêineres Docker**
 
-* Ruby version
+   Execute o comando a seguir para construir e iniciar a aplicação:
 
-* System dependencies
+   ```bash
+   docker-compose up --build9
+   ``````
 
-* Configuration
+2. **Acessar a Aplicação**
+   Após iniciar os contêineres, abra o seu navegador e acesse:
 
-* Database creation
+   http://localhost:3000/
 
-* Database initialization
+3. **Configuração Inicial (Primeira Execução)**
 
-* How to run the test suite
+   Caso esta seja a primeira vez que você está acessando a aplicação, você será redirecionado para a tela de configuração do Rails. Nesta tela, será necessário clicar no botão "Run pending migrations" para aplicar as migrações do banco de dados.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+   Após concluir a execução das migrações, a aplicação estará pronta para uso.
