@@ -7,7 +7,7 @@ Para iniciar a aplicação, siga os passos abaixo:
    Execute o comando a seguir para construir e iniciar a aplicação:
 
    ```bash
-   docker-compose up --build9
+   docker-compose up --build
    ``````
 
 2. **Acessar a Aplicação**
